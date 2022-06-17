@@ -7,7 +7,7 @@ int main() {
 
     std::cout << "Reading a YAML file..." << std::endl;
 
-    YAML::Node config = YAML::LoadFile("../config.yaml");
+    YAML::Node config = YAML::LoadFile("config.yaml");
 
     // YAML::Node config = YAML::LoadFile(config_path);
     const YAML::Node& node_test1 = config["sensors"];
