@@ -1,0 +1,7 @@
+sensors:
+  - id: 5
+    hardwareId: 28-000005a32133
+    type: 1
+  - id: 6
+    hardwareId: 28-000005a32132
+    type: 4
